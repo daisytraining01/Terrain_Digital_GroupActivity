@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Terrain]">
+  <test thread-count="5" name="jyoti(failed)">
+    <parameter name="appPackage" value="com.experitest.ExperiBank"/>
+    <parameter name="appActivity" value=".LoginActivity"/>
+    <parameter name="platformVersion" value="9"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udId" value="288a84740804"/>
+    <parameter name="deviceName" value="Mi A1"/>
+    <classes>
+      <class name="com.terrain.Jyoti">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.terrain.Jyoti -->
+    </classes>
+  </test> <!-- jyoti(failed) -->
+</suite> <!-- Failed suite [Terrain] -->
