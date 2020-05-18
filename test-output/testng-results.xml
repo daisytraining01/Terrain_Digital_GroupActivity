@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Terrain" duration-ms="83831" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:34:19Z">
+    <groups>
+    </groups>
+    <test name="jyoti_realDevice" duration-ms="83831" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:34:19Z">
+      <class name="com.terrain.Jyoti">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="beforeSuite" is-config="true" duration-ms="52" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="beforeTest" is-config="true" duration-ms="4" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="beforeMethod" is-config="true" duration-ms="37007" started-at="2020-05-18T04:32:55Z" finished-at="2020-05-18T04:33:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mi A1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[288a84740804]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.gnucash.android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[.ui.account.AccountsActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="income()[pri:1, instance:com.terrain.Jyoti@3e3047e6]" name="income" duration-ms="45775" started-at="2020-05-18T04:33:32Z" finished-at="2020-05-18T04:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- income -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="afterMethod" is-config="true" duration-ms="986" started-at="2020-05-18T04:34:18Z" finished-at="2020-05-18T04:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-18T04:34:19Z" finished-at="2020-05-18T04:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-18T04:34:19Z" finished-at="2020-05-18T04:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.terrain.Jyoti@3e3047e6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-05-18T04:34:19Z" finished-at="2020-05-18T04:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.terrain.Jyoti -->
+    </test> <!-- jyoti_realDevice -->
+  </suite> <!-- Terrain -->
+</testng-results>
