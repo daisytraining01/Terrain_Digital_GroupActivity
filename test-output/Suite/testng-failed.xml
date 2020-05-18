@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="appPackage" value="com.miui.calculator"/>
+    <parameter name="appActivity" value="com.miui.calculator.cal.CalculatorActivity"/>
+    <parameter name="platformVersion" value="9"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udId" value="4pguzp5sifcur4u8"/>
+    <parameter name="deviceName" value="Redmi"/>
+    <classes>
+      <class name="com.terrain.Mani">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="sampleTest"/>
+        </methods>
+      </class> <!-- com.terrain.Mani -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
