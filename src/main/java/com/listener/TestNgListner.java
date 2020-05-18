@@ -10,47 +10,40 @@ import com.manager.ExtentManager;
 
 public class TestNgListner  implements ITestListener {
 
-	 
-
-    //Extent Report Declarations
+	//Extent Report Declarations
     private static ExtentReports extent = ExtentManager.createInstance();
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
     
-	@Override
-	public void onTestStart(ITestResult result) {
+	public void onFinish(ITestContext arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onTestSuccess(ITestResult result) {
+	public void onStart(ITestContext arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onTestSkipped(ITestResult result) {
+	public void onTestFailure(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+	public void onTestSkipped(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onStart(ITestContext context) {
+	public void onTestStart(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
-	@Override
-	public void onFinish(ITestContext context) {
+	public void onTestSuccess(ITestResult arg0) {
 		// TODO Auto-generated method stub
 		
 	}
+   
+    
 
  
 
