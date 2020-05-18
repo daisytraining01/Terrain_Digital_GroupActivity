@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="simple_suite" duration-ms="50866" started-at="2020-05-18T00:29:57 IST" finished-at="2020-05-18T00:30:48 IST">
+    <groups>
+    </groups>
+    <test name="calc" duration-ms="50866" started-at="2020-05-18T00:29:57 IST" finished-at="2020-05-18T00:30:48 IST">
+      <class name="com.qa.Tests.CalculatorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Tests.CalculatorTest@3043fe0e]" name="setUp" is-config="true" duration-ms="36691" started-at="2020-05-18T00:29:57 IST" finished-at="2020-05-18T00:30:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MultiplicationTest(int, int, int)[pri:1, instance:com.qa.Tests.CalculatorTest@3043fe0e]" name="MultiplicationTest" duration-ms="13972" started-at="2020-05-18T00:30:34 IST" finished-at="2020-05-18T00:30:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplicationTest -->
+      </class> <!-- com.qa.Tests.CalculatorTest -->
+    </test> <!-- calc -->
+  </suite> <!-- simple_suite -->
+</testng-results>
