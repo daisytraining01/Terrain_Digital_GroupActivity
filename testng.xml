@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Terrain">
+	<listeners>
+		<listener class-name="com.listener.TestNgListner" />
+	</listeners>
+	<test name="jyoti_realDevice">
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="9" />
+		<parameter name="deviceName" value="Mi A1" />
+		<parameter name="udId" value="288a84740804" />
+		<parameter name="appPackage"
+			value="com.experitest.ExperiBank" />
+		<parameter name="appActivity" value=".LoginActivity" />
+		<classes>
+			<class name="com.terrain.Jyoti" />
+
+		</classes>
+	</test> <!-- jyoti -->
+
+	<test name="jyoti_emulator">
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="9" />
+		<parameter name="deviceName" value="Mi A1" />
+		<parameter name="udId" value="288a84740804" />
+		<parameter name="appPackage"
+			value="com.experitest.ExperiBank" />
+		<parameter name="appActivity" value=".LoginActivity" />
+		<classes>
+			<class name="com.terrain.Jyoti" />
+
+		</classes>
+	</test> <!-- jyoti -->
+
+</suite> <!-- Terrain -->
