@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="platformName" value="Android"></parameter> 
+    <parameter name="platformVersion" value="8"></parameter>
+      <parameter name="deviceName" value="Redmi"></parameter>
+        <parameter name="udId" value="4739b282"></parameter>
+          <parameter name="appPackage" value="com.miui.calculator"></parameter>
+            <parameter name="appActivity" value="com.miui.calculator.cal.CalculatorActivity"></parameter>
+            <parameter name="amount" value="1000"></parameter>
+    <classes>
+      <class name="mobiletesting.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

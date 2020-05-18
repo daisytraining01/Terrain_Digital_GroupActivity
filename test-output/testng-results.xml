@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Terrain" duration-ms="56553" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:28:23Z">
+    <groups>
+    </groups>
+    <test name="jyoti" duration-ms="56553" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:28:23Z">
+      <class name="com.terrain.Jyoti">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="beforeSuite" is-config="true" duration-ms="74" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.terrain.Jyoti@7193666c]" name="beforeMethod" is-config="true" duration-ms="35408" started-at="2020-05-16T11:27:26Z" finished-at="2020-05-16T11:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mi A1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[288a84740804]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.experitest.ExperiBank]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[.LoginActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="f" duration-ms="19642" started-at="2020-05-16T11:28:02Z" finished-at="2020-05-16T11:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="afterMethod" is-config="true" duration-ms="1425" started-at="2020-05-16T11:28:21Z" finished-at="2020-05-16T11:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-16T11:28:23Z" finished-at="2020-05-16T11:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-16T11:28:23Z" finished-at="2020-05-16T11:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.terrain.Jyoti@7193666c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-05-16T11:28:24Z" finished-at="2020-05-16T11:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.terrain.Jyoti -->
+    </test> <!-- jyoti -->
+  </suite> <!-- Terrain -->
+</testng-results>
